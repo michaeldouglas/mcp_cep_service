@@ -1,5 +1,7 @@
 # 📦 Busca de Endereço por CEP
 
+[![smithery badge](https://smithery.ai/badge/@michaeldouglas/mcp_cep_service)](https://smithery.ai/server/@michaeldouglas/mcp_cep_service)
+
 <img src="logo.png" width="350" height="200"/>
 
 Este é um servidor baseado no **Model Context Protocol (MCP)** que permite buscar endereços brasileiros a partir de um número de CEP, retornando informações formatadas e amigáveis para modelos de linguagem (LLMs).
