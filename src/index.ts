@@ -29,7 +29,12 @@ interface FormattedAddress {
 
 // Optional: Define configuration schema to require configuration at connection time
 export const configSchema = z.object({
-  debug: z.boolean().default(true).describe("Enable debug logging"),
+  debug: z.boolean().default(false).describe("Enable debug logging"),
+  apiKey: z
+    .string()
+    .describe(
+      "Google Maps API key. Get one from https://mapsplatform.google.com"
+    ),
 });
 
 export default function createStatelessServer({
